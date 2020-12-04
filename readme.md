@@ -1,7 +1,7 @@
 
 ## Installation
 1. Open your terminal and go to your `~/htdocs` folder.
-2. Clone this repository `https://github.com/rizalihwan/LARAVEL-PPDBOnline.git`
+2. Clone this repository `git clone https://github.com/rizalihwan/LARAVEL-PPDBOnline.git`
 3. Go inside to folder by `cd LARAVEL-PPDBOnline`
 4. Run `composer install`
 5. Create `.env` file with command `cp .env.example .env`
