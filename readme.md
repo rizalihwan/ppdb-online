@@ -1,7 +1,8 @@
 # CARA INSTAL
 ###### git clone https://github.com/rizalihwan/LARAVEL-PPDBOnline
 ###### cd LARAVEL-PPDBOnline
-###### composer && npm install
+###### composer install 
+###### npm install
 ###### copy .env.example to .env
 ###### php artisan key:generate
 
