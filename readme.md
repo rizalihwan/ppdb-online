@@ -7,3 +7,4 @@
 
 ## Lakukan dibawah ini jika sudah setting database di .env
 ###### php artisan migrate
+###### php artisan serve
