@@ -9,7 +9,7 @@ class FormulirController extends Controller
     public function insert(Request $request)
     {
         $request->validate([
-            'file' => 'required|file|mimes:jpg,png,jpeg|max:3000'
+            'file' => 'mimes:jpg,png,jpeg|max:3000'
         ]);
         $data = new Formulir();
         if ($request->hasFile('file')) {
@@ -18,7 +18,6 @@ class FormulirController extends Controller
             $request->file('file')->move('file/', $filename);
             $data->file = $filename;
         }
-        $data->nama_lengkap = $request->nama_lengkap;
         $data->nama_lengkap = $request->nama_lengkap;
         $data->nama_panggilan = $request->nama_panggilan;
         $data->jk = $request->jk;
